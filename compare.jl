@@ -1,8 +1,7 @@
-=
 using CSV
 using DataFrames
 
-# Function to read 
+# Function to read line-separated strings and convert them all to lowercase 
 function linesToArr(path)
     f = open(path, "r")
     arr = readlines(f)
