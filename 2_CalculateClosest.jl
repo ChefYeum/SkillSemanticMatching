@@ -21,19 +21,25 @@ end
 
 function editDistance(s1::String, s2::String)
     dpMatrix = Array{Int64}(undef, length(s1)+1, length(s2)+1)
-    println(size(dpMatrix))
     
 
     dpMatrix[1, :] = collect(0:length(s2))
     dpMatrix[:, 1] = collect(0:length(s1))
     
-    for i in 2:length(s1)+1
-        for j in 2:length(s2)+1
-            println("($i,$j)")
-
+    for i = 2:length(s1)+1, j = 2:length(s2)+1
+        subtitutionCost = (s1[i-1] == s2[j-1] ? 0 : 1) 
+        dpMatrix[i,j] = min(dpMatrix[i-1,j] + 1,
+                            dpMatrix[i,j-1] + 1,
+                            dpMatrix[i-1,j-1] + subtitutionCost)
+                            
+    end 
+    display(dpMatrix)
+    println()
+    return dpMatrix[end,end]
 end 
 
-editDistance("peter","potter")
+#Function test
+println(editDistance("peter","potter"))
 
 # f = CSV.read("1_FindExactMatch.csv")
 
