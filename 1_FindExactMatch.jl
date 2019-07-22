@@ -1,24 +1,32 @@
 using CSV
 using DataFrames
+include("util.jl")
 
-# Function to read line-separated strings and convert them all to lowercase 
-function linesToArr(path)
-    f = open(path, "r")
-    arr = readlines(f)
-    arr = map( (w) -> lowercase(w), arr)
-    close(f)
-    return arr
-end
+linkedinSkills = linesToArr("data/all_linked_skills.txt")
 
-# Read all skills
-symbaSkills = linesToArr("data/SymbaSyncSkills")
-sampleSkills = linesToArr("data/sampleSkills")
-linkedinSkills =  linesToArr("data/all_linked_skills.txt")
+function mostSimilar(skillName::String)::Array{Tuple{String,Float32}}
+    output = Tuple{String,Float32}[] 
+    for s in linkedinSkills
+        println("$skillName compared with $s")
+        getSimilarity::Float32 = similarity(skillName,s) 
+        if getSimilarity > 0.5
+            push!(output,(s, getSimilarity))
+        end
+    end 
+    return output
+end 
 
-# Construct DataFrame 
-dfSkills = DataFrame(skillName = sampleSkills)
-dfSkills[:exactMatch] = map((skillName) -> (skillName in symbaSkills ? true : false), sampleSkills)
-dfSkills[:matches] = map((exactMatch, skillName) -> (exactMatch ? skillName : Nothing), dfSkills[:exactMatch], dfSkills[:skillName])
+# Read all skills and filter non-ASCII strings
+symbaSkills = filterAsciiStrings(linesToArr("data/SymbaSyncSkills"))
+sampleSkills = filterAsciiStrings(linesToArr("data/sampleSkills"))
+linkedinSkills = filterAsciiStrings(linesToArr("data/all_linked_skills.txt"))
 
-#Save processed data
-CSV.write("1_FindExactMatch.csv", dfSkills)
+function constructDataFrame()
+    dfSkills = DataFrame(skillName = sampleSkills)
+    dfSkills[:exactMatch] = map((skillName) -> (skillName in symbaSkills ? true : false), sampleSkills)
+    dfSkills[:matches] = Array{Tuple{String,Float32}}
+    dfSkills[:matches] = map((exactMatch, skillName) -> (exactMatch ? skillName : mostSimilar(skillName)), dfSkills[:exactMatch], dfSkills[:skillName])
+
+    #Save processed data
+    CSV.write("matches.csv", dfSkills)
+end 
