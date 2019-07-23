@@ -37,3 +37,7 @@ end
 function filterAsciiStrings(words::Array{String})::Array{String}
     return filter( (w) -> isascii(w), words)
 end 
+
+function parseStrEntry(entry::String)
+    return eval(Meta.parse(entry))
+end 
