@@ -26,17 +26,13 @@ function similarity(s1::String, s2::String)::Float32
 end
 
 # Function to read line-separated strings and convert them all to lowercase 
-function linesToArr(path)::Array
+function linesToArr(path; asciiOnly=false)::Array
     f = open(path, "r")
     arr = readlines(f)
     arr = map( (w) -> lowercase(w), arr)
     close(f)
-    return arr
+    return (asciiOnly ? filter(w -> isascii(w), arr) : arr)
 end
-
-function filterAsciiStrings(words::Array{String})::Array{String}
-    return filter( (w) -> isascii(w), words)
-end 
 
 function parseStrEntry(entry::String)
     return eval(Meta.parse(entry))
