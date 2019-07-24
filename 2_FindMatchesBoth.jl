@@ -10,7 +10,7 @@ function compareSets(sampleSet::Array{String},targetSet::Array{String}; printLog
         end 
         mapSim = map(target -> (target,similarity(skill,target)), targetSet)
         
-        push!(output, filter(x -> (x[2] > threshold), sort(mapSim, by= t -> t[2])))
+        push!(output, filter(x -> (x[2] > threshold), sort(mapSim, by= t -> t[2], rev=true)))
     end 
     return output
 end 
