@@ -11,6 +11,7 @@ global count
 count = 0
 noOfSample = length(sampleSkills)
 
+
 function mostSimilar(skillName::String)::Array{Tuple{String,Float32}}
     global count += 1
     output = Tuple{String,Float32}[] 
@@ -24,6 +25,8 @@ function mostSimilar(skillName::String)::Array{Tuple{String,Float32}}
     return output
 end 
 
+
+get 
 dfSkills = DataFrame(skillName = sampleSkills)
 dfSkills[:exactMatch] = map((skillName) -> (skillName in symbaSkills ? true : false), sampleSkills)
 dfSkills[:matches] = Array{Tuple{String,Float32}}
@@ -33,10 +36,5 @@ dfSkills[:matches] = map((exactMatch, skillName) -> (exactMatch ? skillName : mo
 dfSkills[:matches] = map( skill -> typeof(skill) == String ? skill : sort(skill, by=s-> s[2],rev=true), f[:matches])
 
 #Save processed data
-CSV.write("matches.csv", dfSkills)
-
-#TO DO
-#1. Get the max similarity for each skill
-#2. Find what percentage a skill results more than one similar skill name
-#3. From the filtered data, figure out a solution to match more skills
+CSV.write("matches_sorted.csv", dfSkills)
 
