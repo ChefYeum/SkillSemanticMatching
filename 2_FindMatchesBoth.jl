@@ -21,8 +21,8 @@ function main()
     linkedinSkills = linesToArr("data/all_linked_skills.txt", asciiOnly=true)
 
     dfSkills = DataFrame(skillName = sampleSkills)
-    dfSkills[:simLinked] = compareSets(sampleSkills,linkedinSkills, printLog=true)  
-    dfSkills[:simSymba] = compareSets(sampleSkills,linkedinSkills, printLog=true) 
+    dfSkills.simLinked = compareSets(sampleSkills,linkedinSkills, printLog=true)  
+    dfSkills.simSymba = compareSets(sampleSkills,symbaSkills, printLog=true) 
 
     CSV.write("2_FindMatchesBoth.csv", dfSkills)
 end 
