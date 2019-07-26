@@ -1,8 +1,6 @@
-using CSV
+using CSV, Query, DataFrames
 
-CSV.read("data/processed/1_FindMatches.csv")
-
-#To do
-#1. Read data
-#2. Add any necessary columns
+linkedMatch = CSV.read("data/processed/3_linkedMatch.csv") 
+linkedMatch.simSymba = map(x -> eval(Meta.parse(x)), linkedMatch.simSymba)
+linkedMatch.simLinked = map(x -> eval(Meta.parse(x)), linkedMatch.simLinked)
 
