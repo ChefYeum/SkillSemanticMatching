@@ -1,7 +1,8 @@
+#File depreciated; use 2_FindMatchesBoth.jl 
 using CSV
 using DataFrames
 include("util.jl")
-#
+
 # Read all skills and filter non-ASCII strings
 symbaSkills = filterAsciiStrings(linesToArr("data/SymbaSyncSkills"))
 sampleSkills = filterAsciiStrings(linesToArr("data/sampleSkills"))
@@ -25,8 +26,6 @@ function mostSimilar(skillName::String)::Array{Tuple{String,Float32}}
     return output
 end 
 
-
-get 
 dfSkills = DataFrame(skillName = sampleSkills)
 dfSkills[:exactMatch] = map((skillName) -> (skillName in symbaSkills ? true : false), sampleSkills)
 dfSkills[:matches] = Array{Tuple{String,Float32}}
@@ -35,6 +34,7 @@ dfSkills[:matches] = map((exactMatch, skillName) -> (exactMatch ? skillName : mo
 #Sort the matches by similarity
 dfSkills[:matches] = map( skill -> typeof(skill) == String ? skill : sort(skill, by=s-> s[2],rev=true), f[:matches])
 
-#Save processed data
+#= Save processed data
 CSV.write("matches_sorted.csv", dfSkills)
+=#
 

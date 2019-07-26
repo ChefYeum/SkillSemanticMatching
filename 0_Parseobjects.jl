@@ -17,5 +17,7 @@ function writeArrayAsLines(arr, path)
     end
 end
 
+#=
 arr = parseJSONfile("SymbaSyncSkills.txt")
-writeArrayAsLines(arr,"SymbaSyncSkills")
+writeArrayAsLines(arr,"data/SymbaSyncSkills")
+=#
