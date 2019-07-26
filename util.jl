@@ -1,3 +1,7 @@
+# Required for JSON functions
+using JSON 
+using DataFrames
+
 function editDistance(s1::String, s2::String)
     s1 = lowercase(s1)
     s2 = lowercase(s2)
@@ -37,3 +41,19 @@ end
 function parseStrEntry(entry::String)
     return eval(Meta.parse(entry))
 end 
+
+
+
+function dfTojson(df::DataFrame)
+    len = length(df[:,1])
+    indices = names(df)
+    jsonarray = [Dict([string(index) => (isna(df[index][i]) ? nothing : df[index][i]) for index in indices]) for i in 1:len]
+    return JSON.json(jsonarray)
+end
+
+function writejson(path::String, df::DataFrame)
+    open(path,"w") do f
+        write(f,dfTojson(df))
+    end
+end
+
