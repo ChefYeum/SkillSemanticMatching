@@ -33,4 +33,4 @@ sort!(linkedMatch, (order(:simSymba, by=ts-> length(ts) > 0 ? ts[1][2] : 0)))
 
 CSV.write("data/processed/3_symbaDirectMatch.csv", symbaDirectMatch)
 CSV.write("data/processed/3_linkedMatch.csv", linkedMatch)
-CSV.write("data/processed/noMatch.csv", noMatch)
+CSV.write("data/processed/3_noMatch.csv", noMatch)

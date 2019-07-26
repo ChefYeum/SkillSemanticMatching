@@ -1,3 +1,8 @@
 using CSV
 
-CSV.read("data/processed/1_FindMatches.csv
+CSV.read("data/processed/1_FindMatches.csv")
+
+#To do
+#1. Read data
+#2. Add any necessary columns
+
