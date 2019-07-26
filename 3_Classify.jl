@@ -16,9 +16,9 @@ symbaDirectMatch.bestSimSymba = map( row -> length(row.simSymba) > 0 ? row.simSy
 # 1578 elements: match with LCL but not directly matched with SSS
 linkedMatch =   @from row in df begin
                     @where  !(row.skillName in symbaDirectMatch.skillName) &&
-                            length(row.simLinked) > 0 &&
-                            row.simLinked[1][2] > 0.9
-                    @select { row.skillName, row.simLinked, row.simSymba} 
+                            length(row.simLinked) > 0 &&    #check if any matches exist
+                            row.simLinked[1][2] == 1.0      #if so, check if the similarity measure is 1 
+                    @select { row.skillName, row.simLinked, row.simSymba } 
                     @collect DataFrame
                 end 
 
