@@ -31,7 +31,6 @@ noMatch  =  @from row in df begin
             end
 sort!(linkedMatch, (order(:simSymba, by=ts-> length(ts) > 0 ? ts[1][2] : 0)))
 
-CSV.write(symbaDirectMatch, "data/processed/3_symbaDirectMatch.csv")
-CSV.write(linkedMatch, "data/processed/3_linkedMatch.csv")
-CSV.write(noMatch, "data/processed/noMatch.csv")
-
+CSV.write("data/processed/3_symbaDirectMatch.csv", symbaDirectMatch)
+CSV.write("data/processed/3_linkedMatch.csv", linkedMatch)
+CSV.write("data/processed/noMatch.csv", noMatch)

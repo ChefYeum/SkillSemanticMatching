@@ -1,0 +1,268 @@
+skillName,simSymba,bestSimSymba
+advertising,"Tuple{String,Float32}[(""advertising"", 1.0), (""advertising"", 1.0)]",1
+project management,"Tuple{String,Float32}[(""project management"", 1.0), (""product management"", 0.888889), (""process management"", 0.833333), (""provider management"", 0.736842), (""page management"", 0.722222), (""event management"", 0.722222), (""content management"", 0.722222), (""order management"", 0.722222), (""money management"", 0.722222), (""float management"", 0.722222), (""budget management"", 0.722222), (""asset management"", 0.722222), (""done management"", 0.722222)]",1
+java,"Tuple{String,Float32}[(""java"", 1.0), (""java"", 1.0)]",1
+javascript,"Tuple{String,Float32}[(""javascript"", 1.0)]",1
+github,"Tuple{String,Float32}[(""github"", 1.0)]",1
+management,"Tuple{String,Float32}[(""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0)]",1
+public speaking,"Tuple{String,Float32}[(""public speaking"", 1.0)]",1
+sql,"Tuple{String,Float32}[(""sql"", 1.0)]",1
+c#,"Tuple{String,Float32}[(""c#"", 1.0)]",1
+hibernate,"Tuple{String,Float32}[(""hibernate"", 1.0)]",1
+e-commerce,"Tuple{String,Float32}[(""e-commerce"", 1.0), (""woocommerce"", 0.727273)]",1
+testing,"Tuple{String,Float32}[(""testing"", 1.0), (""testing"", 1.0), (""testing"", 1.0), (""testing"", 1.0), (""hosting"", 0.714286)]",1
+python,"Tuple{String,Float32}[(""python"", 1.0)]",1
+c++,"Tuple{String,Float32}[(""c++"", 1.0)]",1
+problem solving,"Tuple{String,Float32}[(""problem solving"", 1.0)]",1
+engineering,"Tuple{String,Float32}[(""engineering"", 1.0)]",1
+databases,"Tuple{String,Float32}[(""databases"", 1.0), (""database"", 0.888889), (""database"", 0.888889)]",1
+integration,"Tuple{String,Float32}[(""integration"", 1.0), (""immigration"", 0.727273), (""integrated"", 0.727273)]",1
+performance management,"Tuple{String,Float32}[(""performance management"", 1.0), (""grievance management"", 0.727273)]",1
+scrum,"Tuple{String,Float32}[(""scrum"", 1.0), (""scrum"", 1.0)]",1
+css,"Tuple{String,Float32}[(""css"", 1.0)]",1
+software development,"Tuple{String,Float32}[(""software - development"", 0.909091)]",0.909091
+react,"Tuple{String,Float32}[(""react"", 1.0)]",1
+linux,"Tuple{String,Float32}[(""linux"", 1.0), (""linux"", 1.0)]",1
+php,"Tuple{String,Float32}[(""php"", 1.0)]",1
+customer service,"Tuple{String,Float32}[(""customer service"", 1.0), (""consumer services"", 0.705882)]",1
+jquery,"Tuple{String,Float32}[(""jquery"", 1.0)]",1
+marketing,"Tuple{String,Float32}[(""marketing"", 1.0)]",1
+public relations,"Tuple{String,Float32}[(""public relations"", 1.0)]",1
+graphic design,"Tuple{String,Float32}[(""graphic design"", 1.0)]",1
+facebook,"Tuple{String,Float32}[(""facebook"", 1.0)]",1
+html,"Tuple{String,Float32}[(""html"", 1.0)]",1
+matlab,"Tuple{String,Float32}[(""matlab"", 1.0)]",1
+product management,"Tuple{String,Float32}[(""product management"", 1.0), (""project management"", 0.888889), (""process management"", 0.777778), (""provider management"", 0.736842), (""order management"", 0.722222), (""float management"", 0.722222), (""budget management"", 0.722222)]",1
+supply chain,"Tuple{String,Float32}[(""supply chain"", 1.0)]",1
+java,"Tuple{String,Float32}[(""java"", 1.0), (""java"", 1.0)]",1
+angularjs,"Tuple{String,Float32}[(""angularjs"", 1.0)]",1
+research,"Tuple{String,Float32}[(""research"", 1.0), (""research"", 1.0), (""research"", 1.0), (""research"", 1.0), (""search"", 0.75)]",1
+strategy,"Tuple{String,Float32}[(""strategy"", 1.0), (""strategy"", 1.0), (""strategy"", 1.0), (""strategy"", 1.0)]",1
+change management,"Tuple{String,Float32}[(""change management"", 1.0), (""page management"", 0.823529), (""cadence management"", 0.777778), (""cadence management"", 0.777778), (""waste management"", 0.764706), (""done management"", 0.764706), (""revenue management"", 0.722222), (""content management"", 0.722222), (""team management"", 0.705882), (""event management"", 0.705882), (""money management"", 0.705882), (""budget management"", 0.705882), (""task management"", 0.705882), (""asset management"", 0.705882), (""task management"", 0.705882)]",1
+process improvement,"Tuple{String,Float32}[(""process improvement"", 1.0), (""process management"", 0.736842), (""home improvement"", 0.736842)]",1
+powerpoint,"Tuple{String,Float32}[(""powerpoint"", 1.0)]",1
+human resources,"Tuple{String,Float32}[(""human resources"", 1.0)]",1
+healthcare,"Tuple{String,Float32}[(""health care"", 0.909091)]",0.909091
+publishing,"Tuple{String,Float32}[(""publishing"", 1.0)]",1
+charities,"Tuple{String,Float32}[(""charities"", 1.0)]",1
+sales,"Tuple{String,Float32}[(""sales"", 1.0), (""sales"", 1.0)]",1
+security,"Tuple{String,Float32}[(""security"", 1.0)]",1
+blogging,"Tuple{String,Float32}[(""blogging"", 1.0)]",1
+lead generation,"Tuple{String,Float32}[(""lead generation"", 1.0)]",1
+nagios,"Tuple{String,Float32}[(""nagios"", 1.0)]",1
+ruby,"Tuple{String,Float32}[(""ruby"", 1.0)]",1
+analytics,"Tuple{String,Float32}[(""analytics"", 1.0), (""analytics"", 1.0), (""analytics"", 1.0), (""analytics"", 1.0), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778), (""analysis"", 0.777778)]",1
+retail,"Tuple{String,Float32}[(""retail"", 1.0)]",1
+software,"Tuple{String,Float32}[(""software"", 1.0), (""software"", 1.0), (""software"", 1.0), (""software"", 1.0)]",1
+hardware,"Tuple{String,Float32}[(""hardware"", 1.0), (""hardware"", 1.0)]",1
+information technology,"Tuple{String,Float32}[(""information technology"", 1.0)]",1
+ruby on rails,"Tuple{String,Float32}[(""ruby on rails"", 1.0)]",1
+event management,"Tuple{String,Float32}[(""event management"", 1.0), (""revenue management"", 0.833333), (""content management"", 0.777778), (""team management"", 0.75), (""float management"", 0.75), (""asset management"", 0.75), (""done management"", 0.75), (""project management"", 0.722222), (""cadence management"", 0.722222), (""cadence management"", 0.722222), (""change management"", 0.705882), (""budget management"", 0.705882), (""rights management"", 0.705882)]",1
+photoshop,"Tuple{String,Float32}[(""photoshop"", 1.0)]",1
+restful webservices,"Tuple{String,Float32}[(""restful web services"", 0.95)]",0.95
+oracle,"Tuple{String,Float32}[(""oracle"", 1.0)]",1
+mysql,"Tuple{String,Float32}[(""mysql"", 1.0)]",1
+operations management,"Tuple{String,Float32}[(""operations management"", 1.0), (""operations management"", 1.0)]",1
+windows,"Tuple{String,Float32}[(""windows"", 1.0)]",1
+.net,"Tuple{String,Float32}[("".net"", 1.0)]",1
+tableau,"Tuple{String,Float32}[(""tableau"", 1.0)]",1
+c#,"Tuple{String,Float32}[(""c#"", 1.0)]",1
+writing,"Tuple{String,Float32}[(""writing"", 1.0), (""writing"", 1.0)]",1
+financial accounting,"Tuple{String,Float32}[(""financial accounting"", 1.0), (""managerial accounting"", 0.761905)]",1
+sharepoint,"Tuple{String,Float32}[(""sharepoint"", 1.0)]",1
+design thinking,"Tuple{String,Float32}[(""design thinking"", 1.0)]",1
+risk management,"Tuple{String,Float32}[(""risk management"", 1.0), (""task management"", 0.866667), (""task management"", 0.866667), (""rights management"", 0.764706), (""order management"", 0.75), (""asset management"", 0.75), (""waste management"", 0.75), (""team management"", 0.733333), (""page management"", 0.733333), (""done management"", 0.733333), (""process management"", 0.722222)]",1
+banking,"Tuple{String,Float32}[(""banking"", 1.0), (""banking"", 1.0), (""booking"", 0.714286)]",1
+capital markets,"Tuple{String,Float32}[(""capital markets"", 1.0)]",1
+django,"Tuple{String,Float32}[(""django"", 1.0)]",1
+data analysis,"Tuple{String,Float32}[(""data analysis"", 1.0), (""data analysis"", 1.0), (""gap analysis"", 0.769231)]",1
+php,"Tuple{String,Float32}[(""php"", 1.0)]",1
+python,"Tuple{String,Float32}[(""python"", 1.0)]",1
+laravel,"Tuple{String,Float32}[(""laravel"", 1.0)]",1
+visual basic,"Tuple{String,Float32}[(""visual basics"", 0.923077)]",0.923077
+spring,"Tuple{String,Float32}[(""spring"", 1.0), (""sprint"", 0.833333)]",1
+budgets,"Tuple{String,Float32}[(""budgets"", 1.0)]",1
+mongodb,"Tuple{String,Float32}[(""mongodb"", 1.0)]",1
+eclipse,"Tuple{String,Float32}[(""eclipse"", 1.0)]",1
+testing,"Tuple{String,Float32}[(""testing"", 1.0), (""testing"", 1.0), (""testing"", 1.0), (""testing"", 1.0), (""hosting"", 0.714286)]",1
+postgresql,"Tuple{String,Float32}[(""postgresql"", 1.0)]",1
+communication,"Tuple{String,Float32}[(""communications"", 0.928571)]",0.928571
+styling,"Tuple{String,Float32}[(""styling"", 1.0)]",1
+forecasting,"Tuple{String,Float32}[(""forecasting"", 1.0)]",1
+kanban,"Tuple{String,Float32}[(""kanban"", 1.0), (""kanban"", 1.0)]",1
+unity,"Tuple{String,Float32}[(""unity"", 1.0)]",1
+maya,"Tuple{String,Float32}[(""maya"", 1.0)]",1
+perforce,"Tuple{String,Float32}[(""perforce"", 1.0), (""enforce"", 0.75), (""performance"", 0.727273)]",1
+ubuntu,"Tuple{String,Float32}[(""ubuntu"", 1.0)]",1
+cassandra,"Tuple{String,Float32}[(""cassandra"", 1.0)]",1
+wordpress,"Tuple{String,Float32}[(""wordpress"", 1.0)]",1
+construction,"Tuple{String,Float32}[(""construction"", 1.0)]",1
+wireless,"Tuple{String,Float32}[(""wireless"", 1.0)]",1
+redux,"Tuple{String,Float32}[(""redux"", 1.0)]",1
+git,"Tuple{String,Float32}[(""git"", 1.0)]",1
+scala,"Tuple{String,Float32}[(""scala"", 1.0)]",1
+illustrator,"Tuple{String,Float32}[(""illustrator"", 1.0)]",1
+informatics,"Tuple{String,Float32}[(""informatica"", 0.909091)]",0.909091
+swift,"Tuple{String,Float32}[(""swift"", 1.0)]",1
+r,"Tuple{String,Float32}[(""r"", 1.0)]",1
+analysis,"Tuple{String,Float32}[(""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analysis"", 1.0), (""analytics"", 0.777778), (""analytics"", 0.777778), (""analytics"", 0.777778), (""analytics"", 0.777778)]",1
+civil litigation,"Tuple{String,Float32}[(""civil litigation"", 1.0)]",1
+responsive web design,"Tuple{String,Float32}[(""responsive web design"", 1.0)]",1
+human computer interaction,"Tuple{String,Float32}[(""human-computer interaction"", 0.961538)]",0.961538
+final cut pro,"Tuple{String,Float32}[(""final cut pro"", 1.0)]",1
+press releases,"Tuple{String,Float32}[(""press release"", 0.928571)]",0.928571
+sitecore,"Tuple{String,Float32}[(""sitecore"", 1.0)]",1
+sql server,"Tuple{String,Float32}[(""sql server"", 1.0)]",1
+coordination,"Tuple{String,Float32}[(""coordination"", 1.0)]",1
+elixir,"Tuple{String,Float32}[(""elixir"", 1.0)]",1
+javascript,"Tuple{String,Float32}[(""javascript"", 1.0)]",1
+gradle,"Tuple{String,Float32}[(""gradle"", 1.0)]",1
+insurance,"Tuple{String,Float32}[(""insurance"", 1.0), (""reinsurance"", 0.818182)]",1
+team management,"Tuple{String,Float32}[(""team management"", 1.0), (""task management"", 0.8), (""task management"", 0.8), (""event management"", 0.75), (""float management"", 0.75), (""page management"", 0.733333), (""risk management"", 0.733333), (""done management"", 0.733333), (""content management"", 0.722222), (""change management"", 0.705882)]",1
+sql server integration services (ssis),"Tuple{String,Float32}[(""sql server integration services (ssis)"", 1.0), (""sql server reporting services (ssrs)"", 0.763158)]",1
+financial analysis,"Tuple{String,Float32}[(""financial analysis"", 1.0)]",1
+java,"Tuple{String,Float32}[(""java"", 1.0), (""java"", 1.0)]",1
+typescript,"Tuple{String,Float32}[(""typescript"", 1.0)]",1
+data structures,"Tuple{String,Float32}[(""data structures"", 1.0)]",1
+automation,"Tuple{String,Float32}[(""automation"", 1.0)]",1
+semiconductors,"Tuple{String,Float32}[(""semiconductors"", 1.0)]",1
+transportation,"Tuple{String,Float32}[(""transportation"", 1.0)]",1
+negotiation,"Tuple{String,Float32}[(""negotiation"", 1.0), (""negotiation"", 1.0), (""negotiation"", 1.0)]",1
+asset managment,"Tuple{String,Float32}[(""asset management"", 0.9375), (""waste management"", 0.75), (""budget management"", 0.705882)]",0.9375
+business development,"Tuple{String,Float32}[(""business development"", 1.0)]",1
+sas,"Tuple{String,Float32}[(""sas"", 1.0), (""sass"", 0.75)]",1
+spss,"Tuple{String,Float32}[(""spss"", 1.0), (""sass"", 0.75)]",1
+bash,"Tuple{String,Float32}[(""bash"", 1.0)]",1
+real estate,"Tuple{String,Float32}[(""real estate"", 1.0)]",1
+accounting,"Tuple{String,Float32}[(""accounting"", 1.0), (""tax accounting"", 0.714286)]",1
+storyboarding,"Tuple{String,Float32}[(""storyboarding"", 1.0)]",1
+3d modeling,"Tuple{String,Float32}[(""3d modelling"", 0.916667)]",0.916667
+sketch,"Tuple{String,Float32}[(""sketch"", 1.0)]",1
+operating systems,"Tuple{String,Float32}[(""operating systems"", 1.0), (""operating system"", 0.941176)]",1
+import,"Tuple{String,Float32}[(""import"", 1.0)]",1
+informatica,"Tuple{String,Float32}[(""informatica"", 1.0)]",1
+css,"Tuple{String,Float32}[(""css"", 1.0)]",1
+jenkins,"Tuple{String,Float32}[(""jenkins"", 1.0)]",1
+java script,"Tuple{String,Float32}[(""javascript"", 0.909091)]",0.909091
+proofreading,"Tuple{String,Float32}[(""proofreading"", 1.0)]",1
+kubernetes,"Tuple{String,Float32}[(""kubernetes"", 1.0)]",1
+pair programming,"Tuple{String,Float32}[(""pair programming"", 1.0)]",1
+sass,"Tuple{String,Float32}[(""sass"", 1.0), (""spss"", 0.75), (""sas"", 0.75)]",1
+auditing,"Tuple{String,Float32}[(""auditing"", 1.0)]",1
+hadoop,"Tuple{String,Float32}[(""hadoop"", 1.0)]",1
+agile,"Tuple{String,Float32}[(""agile"", 1.0), (""agile"", 1.0)]",1
+video,"Tuple{String,Float32}[(""video"", 1.0), (""video"", 1.0)]",1
+supply management,"Tuple{String,Float32}[(""supply management"", 1.0), (""security management"", 0.736842), (""security management"", 0.736842), (""page management"", 0.705882), (""money management"", 0.705882), (""budget management"", 0.705882)]",1
+procurement,"Tuple{String,Float32}[(""procurement"", 1.0), (""procurement"", 1.0), (""procurement"", 1.0), (""procurement"", 1.0), (""procurement"", 1.0)]",1
+sap,"Tuple{String,Float32}[(""sap"", 1.0)]",1
+finance,"Tuple{String,Float32}[(""finance"", 1.0), (""finance"", 1.0), (""france"", 0.714286)]",1
+quantitative research,"Tuple{String,Float32}[(""quantitative research"", 1.0), (""qualitative research"", 0.904762)]",1
+twitter,"Tuple{String,Float32}[(""twitter"", 1.0)]",1
+flash,"Tuple{String,Float32}[(""flash"", 1.0), (""flask"", 0.8)]",1
+refactoring,"Tuple{String,Float32}[(""refactoring"", 1.0)]",1
+digital,"Tuple{String,Float32}[(""digital"", 1.0), (""digital"", 1.0)]",1
+education,"Tuple{String,Float32}[(""education"", 1.0), (""education"", 1.0), (""educating"", 0.777778)]",1
+docker,"Tuple{String,Float32}[(""docker"", 1.0)]",1
+data structure ,"Tuple{String,Float32}[(""data structures"", 0.933333)]",0.933333
+content management,"Tuple{String,Float32}[(""content management"", 1.0), (""event management"", 0.777778), (""money management"", 0.777778), (""done management"", 0.777778), (""complaint management"", 0.75), (""contributor management"", 0.727273), (""change management"", 0.722222), (""team management"", 0.722222), (""project management"", 0.722222), (""order management"", 0.722222), (""budget management"", 0.722222), (""asset management"", 0.722222), (""cadence management"", 0.722222), (""waste management"", 0.722222), (""cadence management"", 0.722222)]",1
+outlook,"Tuple{String,Float32}[(""outlook"", 1.0)]",1
+risk analysis,"Tuple{String,Float32}[(""risk analysis"", 1.0)]",1
+go,"Tuple{String,Float32}[(""go"", 1.0)]",1
+inspection,"Tuple{String,Float32}[(""inspections"", 0.909091)]",0.909091
+budget management,"Tuple{String,Float32}[(""budget management"", 1.0), (""page management"", 0.764706), (""order management"", 0.764706), (""asset management"", 0.764706), (""project management"", 0.722222), (""content management"", 0.722222), (""product management"", 0.722222), (""change management"", 0.705882), (""supply management"", 0.705882), (""event management"", 0.705882), (""money management"", 0.705882), (""float management"", 0.705882), (""rights management"", 0.705882), (""waste management"", 0.705882), (""done management"", 0.705882)]",1
+infrastructure,"Tuple{String,Float32}[(""infrastructure"", 1.0), (""infrastructure"", 1.0), (""infrastructure"", 1.0)]",1
+pentaho,"Tuple{String,Float32}[(""pentaho"", 1.0), (""pentaho"", 1.0)]",1
+perl,"Tuple{String,Float32}[(""perl"", 1.0)]",1
+typography,"Tuple{String,Float32}[(""typography"", 1.0)]",1
+energy,"Tuple{String,Float32}[(""energy"", 1.0), (""energy"", 1.0)]",1
+chef,"Tuple{String,Float32}[(""chef"", 1.0)]",1
+yii,"Tuple{String,Float32}[(""yii"", 1.0)]",1
+typescript,"Tuple{String,Float32}[(""typescript"", 1.0)]",1
+social skills,"Tuple{String,Float32}[(""social skills"", 1.0)]",1
+presentations,"Tuple{String,Float32}[(""presentation"", 0.923077), (""presentation"", 0.923077)]",0.923077
+search,"Tuple{String,Float32}[(""search"", 1.0), (""research"", 0.75), (""research"", 0.75), (""research"", 0.75), (""research"", 0.75)]",1
+adobe experience manager,"Tuple{String,Float32}[(""adobe experience manager"", 1.0)]",1
+design,"Tuple{String,Float32}[(""design"", 1.0)]",1
+negotiations,"Tuple{String,Float32}[(""negotiation"", 0.916667), (""negotiation"", 0.916667), (""negotiation"", 0.916667)]",0.916667
+psychology,"Tuple{String,Float32}[(""psychology"", 1.0)]",1
+microservices,"Tuple{String,Float32}[(""microservices"", 1.0)]",1
+docker,"Tuple{String,Float32}[(""docker"", 1.0)]",1
+coaching,"Tuple{String,Float32}[(""coaching"", 1.0), (""coaching"", 1.0)]",1
+consultancy,"Tuple{String,Float32}[(""consultancy"", 1.0)]",1
+mentoring,"Tuple{String,Float32}[(""mentoring"", 1.0), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8), (""monitoring"", 0.8)]",1
+qlikview,"Tuple{String,Float32}[(""qlikview"", 1.0)]",1
+corporate finance,"Tuple{String,Float32}[(""corporate finance"", 1.0)]",1
+automotive,"Tuple{String,Float32}[(""automotive"", 1.0), (""automobiles"", 0.727273)]",1
+aviation,"Tuple{String,Float32}[(""aviation"", 1.0)]",1
+airlines,"Tuple{String,Float32}[(""airlines"", 1.0)]",1
+contract negotiation,"Tuple{String,Float32}[(""contract negotiations"", 0.952381)]",0.952381
+swift,"Tuple{String,Float32}[(""swift"", 1.0)]",1
+sketching,"Tuple{String,Float32}[(""sketching"", 1.0)]",1
+report writing,"Tuple{String,Float32}[(""report writing"", 1.0), (""report editing"", 0.857143)]",1
+c++,"Tuple{String,Float32}[(""c++"", 1.0)]",1
+magento,"Tuple{String,Float32}[(""magento"", 1.0)]",1
+axure,"Tuple{String,Float32}[(""axure"", 1.0), (""azure"", 0.8)]",1
+kotlin,"Tuple{String,Float32}[(""kotlin"", 1.0)]",1
+vue,"Tuple{String,Float32}[(""vue"", 1.0)]",1
+excel,"Tuple{String,Float32}[(""excel"", 1.0)]",1
+unit testing,"Tuple{String,Float32}[(""unit testing"", 1.0), (""unit testing"", 1.0)]",1
+css,"Tuple{String,Float32}[(""css"", 1.0)]",1
+sales,"Tuple{String,Float32}[(""sales"", 1.0), (""sales"", 1.0)]",1
+splunk,"Tuple{String,Float32}[(""splunk"", 1.0)]",1
+visual studio,"Tuple{String,Float32}[(""visual studio"", 1.0)]",1
+data analyses,"Tuple{String,Float32}[(""data analysis"", 0.923077), (""data analysis"", 0.923077)]",0.923077
+premiere,"Tuple{String,Float32}[(""premiere"", 1.0)]",1
+communication,"Tuple{String,Float32}[(""communications"", 0.928571)]",0.928571
+rapid prototyping,"Tuple{String,Float32}[(""rapid prototyping"", 1.0)]",1
+consumer electronics,"Tuple{String,Float32}[(""consumer electronics"", 1.0), (""computer & electronics"", 0.772727)]",1
+cost accounting,"Tuple{String,Float32}[(""cost accounting"", 1.0), (""tax accounting"", 0.733333)]",1
+programmable logic controller (plc),"Tuple{String,Float32}[(""programmable logic controller (plc)"", 1.0)]",1
+deep learning,"Tuple{String,Float32}[(""deep learning"", 1.0)]",1
+scrum,"Tuple{String,Float32}[(""scrum"", 1.0), (""scrum"", 1.0)]",1
+apparel,"Tuple{String,Float32}[(""apparel"", 1.0)]",1
+redis,"Tuple{String,Float32}[(""redis"", 1.0)]",1
+management,"Tuple{String,Float32}[(""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0), (""management"", 1.0)]",1
+javascript,"Tuple{String,Float32}[(""javascript"", 1.0)]",1
+python,"Tuple{String,Float32}[(""python"", 1.0)]",1
+tax accounting,"Tuple{String,Float32}[(""tax accounting"", 1.0), (""cost accounting"", 0.733333), (""accounting"", 0.714286)]",1
+bookkeeping,"Tuple{String,Float32}[(""bookkeeping"", 1.0)]",1
+planning,"Tuple{String,Float32}[(""planning"", 1.0), (""planning"", 1.0), (""planning"", 1.0), (""planning"", 1.0), (""planning"", 1.0), (""planning"", 1.0), (""planning"", 1.0), (""planning"", 1.0), (""planning"", 1.0), (""planning"", 1.0), (""planning"", 1.0), (""scanning"", 0.75)]",1
+motivational speaking,"Tuple{String,Float32}[(""motivational speaking"", 1.0)]",1
+professional services,"Tuple{String,Float32}[(""professional services"", 1.0)]",1
+negotiation ,"Tuple{String,Float32}[(""negotiation"", 0.916667), (""negotiation"", 0.916667), (""negotiation"", 0.916667)]",0.916667
+generally accepted accounting principles (gaap),"Tuple{String,Float32}[(""generally accepted accounting principles (gaap)"", 1.0), (""generally accepted accounting principles (gaap)"", 1.0)]",1
+income tax,"Tuple{String,Float32}[(""income tax"", 1.0)]",1
+constant contact,"Tuple{String,Float32}[(""constant contact"", 1.0)]",1
+salesforce,"Tuple{String,Float32}[(""salesforce"", 1.0)]",1
+international financial reporting standards (ifrs),"Tuple{String,Float32}[(""international financial reporting standards (ifrs)"", 1.0), (""international financial reporting standards (ifrs)"", 1.0)]",1
+ibm db2,"Tuple{String,Float32}[(""ibm db2"", 1.0)]",1
+data analysis ,"Tuple{String,Float32}[(""data analysis"", 0.928571), (""data analysis"", 0.928571), (""gap analysis"", 0.714286)]",0.928571
+workday,"Tuple{String,Float32}[(""workday"", 1.0)]",1
+java ee,"Tuple{String,Float32}[(""java ee"", 1.0)]",1
+compliance,"Tuple{String,Float32}[(""compliance"", 1.0)]",1
+water,"Tuple{String,Float32}[(""water"", 1.0)]",1
+ansible,"Tuple{String,Float32}[(""ansible"", 1.0)]",1
+nodejs,"Tuple{String,Float32}[(""nodejs"", 1.0)]",1
+flux,"Tuple{String,Float32}[(""flux"", 1.0)]",1
+biotechnology,"Tuple{String,Float32}[(""biotechnology"", 1.0), (""technology"", 0.769231)]",1
+jquery,"Tuple{String,Float32}[(""jquery"", 1.0)]",1
+servlet,"Tuple{String,Float32}[(""servlet"", 1.0)]",1
+financial forecasting,"Tuple{String,Float32}[(""financial forecasting"", 1.0)]",1
+.net,"Tuple{String,Float32}[("".net"", 1.0)]",1
+nodejs,"Tuple{String,Float32}[(""nodejs"", 1.0)]",1
+health insurance,"Tuple{String,Float32}[(""health insurance"", 1.0)]",1
+wordpress,"Tuple{String,Float32}[(""wordpress"", 1.0)]",1
+variance analysis,"Tuple{String,Float32}[(""variance analysis"", 1.0)]",1
+flask,"Tuple{String,Float32}[(""flask"", 1.0), (""flash"", 0.8)]",1
+ant,"Tuple{String,Float32}[(""ant"", 1.0)]",1
+database,"Tuple{String,Float32}[(""database"", 1.0), (""database"", 1.0), (""databases"", 0.888889)]",1
+tensorflow,"Tuple{String,Float32}[(""tensorflow"", 1.0)]",1
+filing,"Tuple{String,Float32}[(""filing"", 1.0)]",1
+drupal,"Tuple{String,Float32}[(""drupal"", 1.0), (""drupal"", 1.0)]",1
+jquery,"Tuple{String,Float32}[(""jquery"", 1.0)]",1
+sap,"Tuple{String,Float32}[(""sap"", 1.0)]",1
+hive,"Tuple{String,Float32}[(""hive"", 1.0), (""live"", 0.75)]",1
+perl,"Tuple{String,Float32}[(""perl"", 1.0)]",1
+presentation,"Tuple{String,Float32}[(""presentation"", 1.0), (""presentation"", 1.0), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""implementation"", 0.714286), (""data presentation"", 0.705882)]",1
+qualitative research,"Tuple{String,Float32}[(""qualitative research"", 1.0), (""quantitative research"", 0.904762)]",1
+less,"Tuple{String,Float32}[(""less"", 1.0)]",1
