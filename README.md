@@ -12,3 +12,13 @@ The following Julia packages are required to process all scripts
  - CSV.jl
 
 
+# File Descriptions
+## data
+ - ./data/original/..
+  - ...
+ - ./data/processedData/1_SampleInLinkedin.csv
+  - Sample filtered from 1_FindSampleInLinkedin.jl
+
+## Scripts
+ - 1_FindSampleInLinkedin.jl
+  - Filter user sample for those exists in Linkedin
