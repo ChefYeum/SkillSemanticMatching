@@ -1,6 +1,5 @@
 # Required for JSON functions
-using JSON 
-using DataFrames
+using JSON, DataFrames
 
 function editDistance(s1::String, s2::String)
     s1 = lowercase(s1)
